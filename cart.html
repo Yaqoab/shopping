@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="boostraph4/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<title>cart item</title>
+	<style type="text/css">
+		.table-products tbody > tr > td {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ebebeb;
+    -webkit-transition: background-color 0.15s ease-in-out 0s;
+    transition: background-color 0.15s ease-in-out 0s;
+    position: relative;
+}
+
+	</style>
+</head>
+<body>
+<header id="header">
+	<div class="header shadow">
+ <div class="icons">
+ <i class="fa fa-bars" id="menu"></i>
+<span id="headerTitle">Continental Computers</span>
+ <span class="spanfont">
+  <i class="fa fa-search" id="search"></i>
+  <a href="#"><i class="fa fa-user" id="user"></i></a>
+  <a href="cart.html"><i class="fa fa-shopping-cart cartNum">0</i></a>
+ </span>
+
+ </div>
+</div>
+   <div id="list">
+    <ul>
+     <h4>Categories</h4>
+      <li class="nav-item"><a href="#">Phone&tablet</a></li>
+      <li class="nav-item"><a href="#">Computer</a></li>
+      <li class="nav-item"><a href="#">Accessories</a></li>
+      <li class="nav-item"><a href="#">Electronics</a></li>
+      <li class="nav-item"><a href="#">About</a></li>
+    </ul>
+    </div>
+    <div class="searchbar" id="input">
+    <input type="text" placeholder="search for your favorite to buy " name="search" >
+     <button>search</button>
+    </div>
+</header>
+ <main class="container">
+ <div class="cartdisplay">	
+ </div>
+
+<div class="card mb-4 shadow-sm">
+			<div class="card-header">
+				<h2>Cart</h2>
+			</div>
+<div class="col-lg-12 col-sm-12 hero-feature">
+            <div class="table-responsive">
+                <table class="table table-bordered tbl-cart">
+                    <thead>
+                        <tr>
+                            <td class="hidden-xs">Image</td>
+                            <td>Product Name</td>
+                            <td class="td-qty">Quantity</td>
+                            <td>Unit Price</td>
+                            <td>Remove</td>
+                        </tr>
+                    </thead>
+                    <tbody class="carts">
+                       <!--  <tr>
+                            <td class="hidden-xs">
+                                <a href="#">
+                                    <img src="https://via.placeholder.com/200x200/" alt="Age Of Wisdom Tan Graphic Tee" title="" width="47" height="47">
+                                </a>
+                            </td>
+                            <td><a href="#">Age Of Wisdom Tan Graphic Tee</a>
+                            </td>
+
+                            <td>2</td>
+                            <td class="price">$ 122.21</td>
+                          
+                            <td class="text-center">
+                                <a href="#" class="remove_cart" rel="2">
+                                    <i class="fa fa-trash-o"></i>
+                                </a>
+                            </td>
+                        </tr> -->
+                         
+                        
+                    </tbody>
+                    <tfoot>
+                    	<tr>
+                            <td colspan="3" align="right">Total</td>
+                            <td class="total" colspan="2"><b>$ 163.47</b>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+             </div>
+
+            </div>
+            <div class="btn-group btns-cart">
+                <button type="button" class="btn btn-primary"><i class="fa fa-arrow-circle-left"></i> <a href="index.html">Continue Shopping</a></button>
+                <button type="button" class="btn btn-primary">Update Cart</button>
+                <button type="button" class="btn btn-primary">Checkout <i class="fa fa-arrow-circle-right"></i></button>
+            </div>
+
+        </div>
+		
+ </main>
+ <footer id="footer">
+        <footer id="footer">
+        <div class="twelve columns text-center">  
+        <ul class="social-links">
+               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>               
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            </ul>     
+        </div>
+        <p class="copyright text-center">&copy; Copyright 2022. The Continental Computers.</p>
+    </footer>
+ </footer>
+<script src="script/header.js"></script>
+<script src="script/cart.js"></script>
+</body>
+</html>
